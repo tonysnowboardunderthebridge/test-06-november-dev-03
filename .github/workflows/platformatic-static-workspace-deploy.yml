@@ -16,9 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      PLT_SERVER_HOSTNAME: trumpet.db.elephantsql.com/cebcnahl
+      PORT: 5142
       PLT_SERVER_LOGGER_LEVEL: info
-      PORT: 3001
-      PLT_SERVER_HOSTNAME: 127.0.0.1
       DEPLOY_SERVICE_HOST: https://plt-development-deploy-service.fly.dev
 
     steps:
