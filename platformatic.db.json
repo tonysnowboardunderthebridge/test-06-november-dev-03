@@ -1,5 +1,5 @@
 {
-  "$schema": "https://platformatic.dev/schemas/v1.8.1/db",
+  "$schema": "https://platformatic.dev/schemas/v1.8.0/db",
   "db": {
     "connectionString": "{DATABASE_URL}",
     "graphql": true,
