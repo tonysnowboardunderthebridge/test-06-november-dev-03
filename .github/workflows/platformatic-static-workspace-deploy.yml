@@ -16,9 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      PLT_SERVER_HOSTNAME: HOSTNAME_TEST
-      PORT: 99999
-      PLT_SERVER_LOGGER_LEVEL: INFO
+      PLT_SERVER_HOSTNAME: BBBBBBBBBB
+      PORT: A999
+      PLT_SERVER_LOGGER_LEVEL: info
       DEPLOY_SERVICE_HOST: https://plt-development-deploy-service.fly.dev
 
     steps:
