@@ -14,13 +14,15 @@ jobs:
     permissions:
       contents: read
     runs-on: ubuntu-latest
+
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      PLT_SERVER_HOSTNAME: BBBBBBBBBB
-      PORT: 9999
-      PLT_SERVER_LOGGER_LEVEL: info
+      PLT_SERVER_HOSTNAME: example
+      PORT: 11111
+      PLT_SERVER_LOGGER_LEVEL: debug
       DEPLOY_SERVICE_HOST: https://plt-development-deploy-service.fly.dev
 
+    
     steps:
       - name: Checkout application project repository
         uses: actions/checkout@v3

@@ -20,9 +20,9 @@ jobs:
 
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      PLT_SERVER_HOSTNAME: DDDDDDDD
-      PORT: 88888
-      PLT_SERVER_LOGGER_LEVEL: debug
+      PLT_SERVER_HOSTNAME: BBBBBBBBBB
+      PORT: 2222
+      PLT_SERVER_LOGGER_LEVEL: error
       DEPLOY_SERVICE_HOST: https://plt-development-deploy-service.fly.dev
 
     
